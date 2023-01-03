@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 4rem;
+
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 2rem;
+    border: none;
+    background-color: rgb(73, 1, 73);
+    color: white;
+    cursor: pointer;
+  }
+}
+
+@import "./nav";
+@import "./search";
+@import "./footer";
+@import "./picture";

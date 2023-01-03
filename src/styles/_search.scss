@@ -1,0 +1,23 @@
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0rem;
+
+  input,
+  button {
+    font-size: 2rem;
+    padding: 0.25rem;
+    border: 2.5px solid rgb(43, 0, 43);
+  }
+
+  input {
+    margin-right: 2rem;
+  }
+
+  button {
+    background-color: rgb(73, 1, 73);
+    color: white;
+    cursor: pointer;
+  }
+}
